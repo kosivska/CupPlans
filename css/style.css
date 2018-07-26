@@ -1,0 +1,58 @@
+@font-face {
+	font-family: Miso;
+	src: url('../fonts/Miso.woff');
+}
+
+body {
+	background: #FDDE7E;
+}
+
+.flex-container {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	font-family: Miso;
+	justify-content: space-around;
+	margin: 53px auto;
+	width: 1170px;
+}
+
+.container__item {
+	align-items: center;
+	background: #FFFFFF;
+	border-radius: 4px;
+	box-shadow: 3px 4px 7px rgba(0, 0, 0, .2);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 360px; 
+}
+
+.container__title {
+	color: #029902;
+	font-size: 73px;
+	letter-spacing: -3px;
+	padding-top: 15px;
+}
+
+.container__image:nth-child(2) {
+	padding-top: 8px;
+}
+
+.container__caption{
+	font-size: 53px;
+	font-weight: 100;
+}
+
+.container__content {
+	font-size: 28px;
+	margin-bottom: 24px;
+}
+
+.first-block, .third-block {
+	height: 443px;
+}
+.second-block {
+	height: 504px;
+}
